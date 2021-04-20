@@ -1,0 +1,27 @@
+.componentProductElementList {
+  display: grid;
+  padding-bottom: 40px;
+  justify-self: center;
+  text-decoration: none;
+}
+.componentProductImage {
+  display: grid;
+  justify-self: center;
+  padding-bottom: 20px;
+}
+.componentTitleProduct {
+  color: #ffffff;
+  font-family: Century Gothic;
+  display: grid;
+  justify-content: center;
+  text-decoration: none;
+}
+.componentTextProduct {
+  font-family: Century Gothic;
+  color: #f6edce;
+  text-transform: lowercase;
+  padding-bottom: 10px;
+  display: grid;
+  justify-content: center;
+  text-decoration: none;
+}

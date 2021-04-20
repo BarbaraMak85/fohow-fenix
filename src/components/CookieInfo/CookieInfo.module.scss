@@ -1,0 +1,27 @@
+.cookie__wrapper {
+  position: fixed;
+  bottom: 0;
+  background-color: black;
+  padding: 20px;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.text__wrapper {
+  color: #f6edce;
+  margin-bottom: 20px;
+}
+
+.accept__btn {
+  background-color: #a98748;
+  width: 110px;
+  height: 29px;
+  border: none;
+  color: #f6edce;
+  text-transform: uppercase;
+  padding: 5px;
+  font-size: 10px;
+  font-weight: bold;
+  outline: none;
+  border-radius: 14px 14px 14px 14px;
+}

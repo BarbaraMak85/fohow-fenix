@@ -1,0 +1,183 @@
+.componentFormData {
+  display: grid;
+  grid-template-columns: 50%;
+  justify-content: center;
+}
+.componentContactName {
+  display: grid;
+
+  margin: 12px 25px 12px 25px;
+}
+.contactInput {
+  border: none;
+  border-bottom: 1.5px solid #a98748;
+  font-family: Century Gothic;
+  font-size: 10px;
+  outline: none;
+  width: 100%;
+  height: 20px;
+}
+
+.contactTextarea {
+  border: none;
+  border-bottom: 1.5px solid #a98748;
+  font-family: Century Gothic;
+  font-size: 10px;
+  outline: none;
+  width: 100%;
+  height: 100px;
+  resize: none;
+}
+.topicNewInput {
+  display: grid;
+  grid-template-columns: 92%;
+  justify-content: center;
+}
+.componentCheckBox {
+  display: grid;
+  justify-content: center;
+  padding-top: 11px;
+  padding-bottom: 10px;
+}
+
+.contactTopic,
+.contactLabel {
+  display: grid;
+  justify-self: start;
+  // width: 100%;
+  grid-template-columns: 100%;
+  margin-top: 25px;
+}
+
+.contactTopicTwo {
+  display: grid;
+  grid-template-columns: 92%;
+  justify-content: center;
+}
+
+.contactLabel {
+  font-size: 14px;
+  color: #a98748;
+  font-weight: bold;
+  font-family: Century Gothic;
+}
+.compomentContactTopic {
+  display: grid;
+  grid-template-columns: 59%;
+  align-items: center;
+  justify-content: center;
+
+  padding-bottom: 70px;
+  margin: 12px 25px 12px 25px;
+}
+
+.buttonContactFormSubmit {
+  display: grid;
+  justify-content: center;
+}
+.componentForm {
+  padding-bottom: 30px;
+}
+.componentCheckBox {
+  margin-top: 10px;
+  color: #a98748;
+}
+.componentLink {
+  text-decoration: none;
+  color: #a98748;
+  font-size: 11px;
+  font-weight: bold;
+  font-family: Century Gothic;
+  margin-left: 10px;
+}
+.componentInput input[type="checkbox"] {
+  color: #a98748;
+  margin-top: 10px;
+  background-color: #a98748;
+}
+
+.error__message {
+  color: red;
+}
+.accept__terms {
+  display: flex;
+}
+
+@media (max-width: 1500px) {
+  .contactTopicTwo {
+    display: grid;
+    grid-template-columns: 92%;
+    justify-content: center;
+  }
+  .topicNewInput {
+    display: grid;
+    grid-template-columns: 92%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .componentContactName {
+    display: grid;
+    grid-template-columns: 80%;
+
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+  }
+  .compomentContactTopic {
+    display: grid;
+    grid-template-columns: 80%;
+    justify-content: center;
+  }
+  .componentFormData {
+    display: grid;
+    grid-template-columns: 80%;
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contactLabel {
+    display: grid;
+    grid-template-columns: 80%;
+    margin-top: 15px;
+    justify-content: start;
+    font-size: 11px;
+  }
+  .contactTopic {
+    grid-template-columns: 80%;
+    display: grid;
+    justify-content: center;
+  }
+  .compomentContactTopic {
+    margin: 0px;
+    padding: 0px;
+  }
+  .contactTopicTwo,
+  .contactLabelTwo {
+    display: grid;
+    grid-template-columns: 80%;
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+    font-size: 11px;
+  }
+  .componentCheckBox {
+    display: grid;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+    font-size: 11px;
+  }
+  .topicNewInput {
+    display: grid;
+    grid-template-columns: 80%;
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+    font-size: 11px;
+  }
+}

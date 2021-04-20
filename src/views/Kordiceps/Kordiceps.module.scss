@@ -1,0 +1,90 @@
+.kordiceps {
+  background-color: #fff9e5;
+  padding-bottom: 40px;
+  display: grid;
+  grid-template-columns: 100%;
+  justify-content: center;
+  .componentKordicepsRight {
+    justify-self: center;
+    padding-right: 9px;
+    padding-left: 9px;
+  }
+  .paragraphText {
+    padding-bottom: 20px;
+  }
+}
+.headerTextKordeceps {
+  color: #a98748;
+  text-transform: uppercase;
+  font-family: Century Gothic;
+  font-weight: bold;
+  padding: 10px 10px;
+}
+.headerTextParagraph {
+  color: #a98748;
+  font-family: Century Gothic;
+  font-weight: bold;
+}
+.paragraphText {
+  font-size: 16px;
+  font-family: Century Gothic;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.componetKordicepsLeft {
+  display: grid;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-bottom: 25px;
+  padding-top: 35px;
+  text-align: justify;
+}
+.kordicepsComponent {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+}
+
+.kordicepsParagraph {
+  margin-top: 20px;
+  color: #8e8d8b;
+}
+p {
+  color: #8e8d8b;
+}
+.buttonKorgiceps {
+  padding-top: 10px;
+  display: grid;
+  justify-content: center;
+}
+
+.kordicepsImages {
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .kordicepsComponent {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  .componetKordicepsLeft {
+    display: grid;
+    grid-template-columns: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+  }
+  .componentKordicepsRight {
+    justify-self: center;
+  }
+  .buttonKorgiceps {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    padding-left: 0px;
+  }
+}

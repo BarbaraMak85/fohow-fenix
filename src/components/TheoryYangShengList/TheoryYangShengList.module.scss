@@ -1,0 +1,17 @@
+.componentYangSheng {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  font-family: Century Gothic;
+  font-size: 16px;
+}
+.wrapperTheoryYangSheng {
+  min-height: calc(100vh - 388px);
+}
+
+@media (max-width: 768px) {
+  .componentYangSheng {
+    grid-template-columns: 100%;
+  }
+}

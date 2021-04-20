@@ -1,0 +1,22 @@
+.componentProduct {
+  background-color: #a98748;
+}
+
+.componentProductList {
+  display: grid;
+  text-decoration: none;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .componentProductList {
+    display: grid;
+
+    grid-template-columns: 1fr;
+  }
+}

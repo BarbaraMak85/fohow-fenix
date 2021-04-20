@@ -1,0 +1,58 @@
+.headingComponent {
+  display: grid;
+  align-self: center;
+  justify-content: center;
+
+  padding-bottom: 30px;
+  padding-top: 40px;
+}
+.blackTextStyles {
+  color: #000000;
+  text-transform: uppercase;
+  font-family: Century Gothic;
+
+  .decorationTextGold {
+    color: #a98748;
+    text-transform: uppercase;
+    font-family: Century Gothic;
+  }
+}
+
+.whiteTextStyles {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: Century Gothic;
+  justify-self: center;
+}
+
+.goldSecondaryText {
+  color: #f6edce;
+  text-transform: uppercase;
+  font-size: 12px;
+  justify-content: center;
+  display: grid;
+  font-family: Century Gothic;
+  font-weight: bold;
+}
+
+.greySecondaryText {
+  color: #8e8d8b;
+  text-transform: uppercase;
+  font-size: 12px;
+  justify-content: center;
+  display: grid;
+  font-family: Century Gothic;
+  font-weight: bold;
+}
+
+@media (max-width: 350px) {
+  .headingComponent {
+    font-size: 16px;
+    text-align: center;
+    font-family: Century Gothic;
+  }
+  .goldSecondaryText {
+    text-align: center;
+    font-family: Century Gothic;
+  }
+}

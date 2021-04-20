@@ -1,0 +1,65 @@
+.componentMainSingleProductPage {
+  background-color: #fff9e5;
+}
+.componentTitleSinglePage {
+  display: grid;
+  justify-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  grid-template-columns: 100%;
+  padding-top: 30px;
+
+  color: #a98748;
+  font-family: Century Gothic;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.wrapperSinglePage {
+  min-height: calc(100vh - 108px);
+}
+.componentImageSinglePage {
+  grid-template-columns: 100%;
+  display: grid;
+  justify-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.componentIngradientsProductPage {
+  text-decoration: none;
+  color: #a98748;
+  font-family: Century Gothic;
+  margin-top: 5px;
+  font-size: 12px;
+  padding-right: 20px;
+  padding-left: 40px;
+  display: grid;
+  text-align: justify;
+  margin-bottom: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.titleSinglePage {
+  font-family: Century Gothic;
+  font-weight: bold;
+  font-size: 16px;
+  color: #a98748;
+}
+.paragraphSinglePage {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.componentParagraphsSingleProductPage {
+  font-family: Century Gothic;
+  margin-top: 5px;
+  font-size: 14px;
+  padding-right: 20px;
+  padding-left: 20px;
+  display: grid;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+.singelProductImage {
+  width: 300px;
+}

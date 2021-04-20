@@ -1,0 +1,39 @@
+.yangShangElemen {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  display: grid;
+  justify-self: center;
+}
+.yangShengImage {
+  display: grid;
+  padding-bottom: 20px;
+  display: grid;
+  justify-self: center;
+}
+.titleYangSheng {
+  color: #a98748;
+  font-family: Century Gothic;
+  font-weight: bold;
+  display: grid;
+  justify-self: center;
+}
+.pharagraphyangSheng {
+  color: #8e8d8b;
+  text-transform: lowercase;
+  display: grid;
+  text-align: center;
+}
+
+@media (max-width: 350px) {
+  .pharagraphyangSheng {
+    display: grid;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .titleYangSheng {
+    padding-bottom: 15px;
+  }
+}

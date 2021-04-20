@@ -1,0 +1,31 @@
+.personName,
+.personPhone,
+.personEmail,
+.personPosition {
+  display: grid;
+  text-align: center;
+  font-family: Century Gothic;
+  background-color: #ffffff;
+  padding-top: 10px;
+  font-size: 16px;
+}
+.componentPersonContent {
+  background-color: #ffffff;
+  padding-bottom: 10px;
+}
+.personName {
+  color: #a98748;
+}
+.personPhoto {
+  width: 140px;
+  height: 150px;
+  justify-self: center;
+}
+
+.personList {
+  background-color: #ffffff;
+  padding-top: 25px;
+  display: grid;
+  justify-content: center;
+  font-family: Century Gothic;
+}

@@ -1,0 +1,31 @@
+.componentFooter {
+  background-color: #a98748;
+  display: grid;
+  grid-template-columns: 90%;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.componentFooterList {
+  display: grid;
+  justify-self: center;
+}
+.componentFooterText {
+}
+.componentFooterTitle,
+.componentFooterElement,
+.componentFooterTitleAbout {
+  font-family: Century Gothic;
+  color: #f6edce;
+
+  font-size: 10px;
+}
+.componentFooterTitleAbout {
+  margin-left: 20px;
+}
+.componentFooterParagraph {
+  font-family: Century Gothic;
+  color: #f6edce;
+  margin-left: 20px;
+  font-size: 10px;
+  font-weight: normal;
+}

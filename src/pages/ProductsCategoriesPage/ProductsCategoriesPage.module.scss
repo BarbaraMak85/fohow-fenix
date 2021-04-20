@@ -1,0 +1,79 @@
+.imgProduct {
+  width: 100px;
+  height: 100px;
+  // border: 2px solid #fff9e5;
+  // border-radius: 50%;
+  justify-self: center;
+}
+.componentCategories {
+  background-color: #a98748;
+}
+
+.smallImg {
+  width: 80px;
+  height: 80px;
+  display: grid;
+  justify-content: center;
+  justify-self: center;
+  // border: 2px solid #fff9e5;
+  // border-radius: 50%;
+}
+
+.clinerComponentWrapper {
+  border-bottom: 1px solid #fff;
+}
+.wrapperProduct {
+  min-height: calc(100vh - 385px);
+}
+.clinerComponentTwoCollumns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+}
+
+.clinerListComponent {
+  cursor: pointer;
+}
+
+.titleCliner,
+.contentCliner,
+.clinerListComponent,
+.clinerCategoryName {
+  display: grid;
+  justify-content: center;
+}
+.clinerComponent {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+}
+.clinerCategoryName,
+.imgProduct,
+.smallImg {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.contentCliner {
+  text-transform: uppercase;
+  font-family: Century Gothic;
+  color: #f6edce;
+}
+.clinerCategoryName {
+  text-transform: uppercase;
+  font-family: Century Gothic;
+  font-weight: bold;
+}
+.linkComponent {
+  text-decoration: none;
+  color: #f6edce;
+}
+
+// .componentFooter {
+//
+// }
+
+@media (max-width: 768px) {
+  .clinerComponent {
+    grid-template-columns: 1fr;
+  }
+}
